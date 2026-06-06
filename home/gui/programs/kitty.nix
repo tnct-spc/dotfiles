@@ -7,6 +7,8 @@
       #zshell
       shell zsh
 
+      auto_reload_config -1
+
       # Remove close window confirm
       confirm_os_window_close 0
 
