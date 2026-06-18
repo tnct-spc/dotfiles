@@ -26,6 +26,7 @@
             "CapsLock-e" = "Esc";
             "CapsLock-LeftBrace" = "Delete";
             "CapsLock-RightBrace" = "Backspace";
+            "CapsLock-SemiColon" = "Enter";
             "CapsLock-h" = "Left";
             "CapsLock-j" = "Down";
             "CapsLock-k" = "Up";
