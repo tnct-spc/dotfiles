@@ -14,6 +14,7 @@
         "https://gist.github.com".helper = "${lib.getExe pkgs.gh} auth git-credential";
       };
       merge.conflictstyle = "diff3";
+      advice.addIgnoredFile = false;
     };
   };
 }
