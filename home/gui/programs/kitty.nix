@@ -9,6 +9,8 @@
 
       auto_reload_config -1
 
+      clipboard_control write-clipboard read-clipboard write-primary read-primary
+
       # Remove close window confirm
       confirm_os_window_close 0
 
