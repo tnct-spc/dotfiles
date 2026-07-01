@@ -18,7 +18,7 @@
         la = "eza --icons=auto -a";
         ll = "eza --icons=auto -lh";
         lla = "eza --icons=auto -lha";
-        lt = "eza --icons=auto --tree --level=2";
+        lt = "eza --icons=auto --tree --git-ignore --level=2";
         lta = "eza --icons=auto --tree -a --git-ignore --level=2";
         rm = "rm -rf";
         cp = "cp -r";
