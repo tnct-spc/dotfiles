@@ -14,12 +14,12 @@
     zsh-abbr = {
       enable = true;
       abbreviations = {
-        ls = "eza --icons";
-        la = "eza --icons -a";
-        ll = "eza --icons -lh";
-        lla = "eza --icons -lha";
-        lt = "eza --icons --tree --level=2";
-        lta = "eza --icons --tree -a --git-ignore --level=2";
+        ls = "eza --icons=auto";
+        la = "eza --icons=auto -a";
+        ll = "eza --icons=auto -lh";
+        lla = "eza --icons=auto -lha";
+        lt = "eza --icons=auto --tree --level=2";
+        lta = "eza --icons=auto --tree -a --git-ignore --level=2";
         rm = "rm -rf";
         cp = "cp -r";
         c = "clear";
