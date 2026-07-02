@@ -18,7 +18,7 @@
     input = {
       focus-follows-mouse = {
         enable = true;
-        max-scroll-amount = "0%";
+        max-scroll-amount = "10%";
       };
       warp-mouse-to-focus.enable = true;
       touchpad.dwt = true;
