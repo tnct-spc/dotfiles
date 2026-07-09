@@ -1,8 +1,7 @@
-{ inputs, pkgs, ... }:
+{ pkgs, ... }:
 {
   programs.yazi = {
     enable = true;
-    package = inputs.yazi.packages.${pkgs.stdenv.hostPlatform.system}.yazi;
     enableZshIntegration = true;
     shellWrapperName = "y";
 
