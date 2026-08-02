@@ -3,18 +3,18 @@
   gtk = {
     enable = true;
     iconTheme = {
-      name = "Yaru-magenta-dark";
-      package = pkgs.yaru-theme;
+      name = "Adwaita";
+      package = pkgs.adwaita-icon-theme;
     };
 
     theme = {
-      name = "Tokyonight-Dark";
-      package = pkgs.tokyonight-gtk-theme;
+      name = "adw-gtk3-dark";
+      package = pkgs.adw-gtk3;
     };
 
     gtk4.theme = {
-      name = "Tokyonight-Dark";
-      package = pkgs.tokyonight-gtk-theme;
+      name = "adw-gtk3-dark";
+      package = pkgs.adw-gtk3;
     };
 
     cursorTheme = {
