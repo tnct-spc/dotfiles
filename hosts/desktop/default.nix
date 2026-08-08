@@ -4,6 +4,8 @@
     ./fonts.nix
   ];
 
+  security.pam.services.hyprlock = { };
+
   services = {
     blueman.enable = true;
 
