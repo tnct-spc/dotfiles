@@ -213,7 +213,8 @@
         };
         "clock" = {
           "interval" = 1;
-          "format" = "{:%H:%M %p  %A %b %d}";
+          "format" = "{:%H:%M %p  %a %b %d}";
+          "tooltip" = false;
         };
         "memory" = {
           "interval" = 1;
