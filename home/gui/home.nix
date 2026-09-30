@@ -6,7 +6,6 @@
   ];
 
   home.packages = with pkgs; [
-    dunst
     pavucontrol
     xdg-utils
     playerctl
