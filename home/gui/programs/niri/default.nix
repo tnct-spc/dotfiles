@@ -27,7 +27,6 @@
     spawn-at-startup = [
       { command = [ "waybar" ]; }
       { command = [ "awww-daemon" ]; }
-      { command = [ "arrpc" ]; }
     ];
     hotkey-overlay.skip-at-startup = true;
     cursor.theme = "Bibata-Modern-Classic";
