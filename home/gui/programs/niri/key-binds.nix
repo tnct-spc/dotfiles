@@ -3,6 +3,13 @@
 
   "Mod+Return".action.spawn = "kitty";
   "Mod+D".action.spawn = "fuzzel";
+  "Mod+semicolon".action.spawn = [
+    "kitty"
+    "--class"
+    "clipse"
+    "-e"
+    "clipse"
+  ];
   "Mod+T".action.spawn = "wleave";
   "Mod+B".action.spawn = [
     "pkill"

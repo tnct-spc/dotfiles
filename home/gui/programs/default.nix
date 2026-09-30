@@ -1,5 +1,6 @@
 {
   imports = [
+    ./clipse.nix
     ./dunst.nix
     ./fuzzel.nix
     ./waybar.nix

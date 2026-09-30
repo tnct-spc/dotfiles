@@ -45,6 +45,12 @@
     };
     window-rules = [
       {
+        matches = [ { app-id = "^clipse$"; } ];
+        open-floating = true;
+        default-column-width.fixed = 800;
+        default-window-height.fixed = 600;
+      }
+      {
         clip-to-geometry = true;
         geometry-corner-radius = {
           top-left = 8.0;
