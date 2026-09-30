@@ -81,6 +81,10 @@ in
     tailscale.enable = true;
     thermald.enable = true;
     openssh.enable = true;
+    xserver.xkb = {
+      layout = "jp";
+      model = "jp106";
+    };
 
     desktopManager.gnome.enable = true;
 
