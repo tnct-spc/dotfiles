@@ -70,7 +70,6 @@ hostname:
     gnome-logs
     gnome-maps
     gnome-music
-    gnome-photos
     gnome-weather
   ];
 }
