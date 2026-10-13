@@ -3,15 +3,35 @@ hostname:
 {
   time.timeZone = "Asia/Tokyo";
 
-  i18n = {
-    defaultLocale = "en_US.UTF-8";
-    inputMethod.enable = false;
-  };
-
   security.rtkit.enable = true;
 
   programs = {
-    zsh.enable = true;
+    zsh = {
+      enable = true;
+      autosuggestions.enable = true;
+      enableCompletion = true;
+      syntaxHighlighting.enable = true;
+      histSize = 10000;
+      setOptions = [
+        "AUTO_CD"
+        "HIST_IGNORE_DUPS"
+        "HIST_IGNORE_SPACE"
+        "SHARE_HISTORY"
+      ];
+      shellAliases = {
+        c = "clear";
+        la = "ls -A";
+        ll = "ls -lh";
+      };
+      interactiveShellInit = ''
+        autoload -Uz vcs_info
+        zstyle ':vcs_info:git:*' formats ' (%b)'
+        precmd() { vcs_info }
+        setopt PROMPT_SUBST
+        PROMPT='%F{cyan}%~%f''${vcs_info_msg_0_} %# '
+      '';
+    };
+
     dconf.enable = true;
     nix-ld.enable = true;
   };

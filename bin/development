@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Firmware temperature control avoids constant full-speed fans during development.
+asusctl fan-curve --mod-profile Performance --enable-fan-curves false
+asusctl profile set Performance
+asusctl fan-curve --get-enabled

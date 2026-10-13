@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Full-duty cooling reduces thermal constraints during sustained competition workloads.
+asusctl fan-curve --mod-profile Performance --fan cpu --data '30c:100%,40c:100%,50c:100%,60c:100%,70c:100%,80c:100%,90c:100%,100c:100%'
+asusctl fan-curve --mod-profile Performance --fan gpu --data '30c:100%,40c:100%,50c:100%,60c:100%,70c:100%,80c:100%,90c:100%,100c:100%'
+asusctl fan-curve --mod-profile Performance --enable-fan-curves true
+asusctl profile set Performance
+asusctl fan-curve --get-enabled

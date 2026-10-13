@@ -24,9 +24,9 @@ let
 in
 {
   nixosConfigurations = {
-    caim = mkNixosSystem {
+    cais = mkNixosSystem {
       system = "x86_64-linux";
-      modules = [ ./caim/nixos.nix ];
+      modules = [ ./cais/nixos.nix ];
     };
   };
 }
