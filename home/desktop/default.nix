@@ -1,8 +1,20 @@
 { pkgs, ... }:
 {
   imports = [
-    ./programs
-    ./themes
+    ./clipse.nix
+    ./dunst.nix
+    ./fuzzel.nix
+    ./hyprlock.nix
+    ./input-method.nix
+    ./kitty.nix
+    ./niri
+    ./obs-studio.nix
+    ./theme.nix
+    ./wallpaper_random.nix
+    ./waybar
+    ./wleave.nix
+    ./xremap.nix
+    ./zen-browser.nix
   ];
 
   home.packages = with pkgs; [

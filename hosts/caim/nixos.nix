@@ -20,8 +20,9 @@ in
 {
   imports = [
     ./hardware-configuration.nix
-    (import ../nixos.nix hostname)
-    ../desktop
+    (import ../modules/base.nix hostname)
+    ../modules/container.nix
+    ../modules/desktop
 
     inputs.home-manager.nixosModules.home-manager
     {

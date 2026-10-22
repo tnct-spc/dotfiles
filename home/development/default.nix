@@ -1,4 +1,9 @@
 {
+  imports = [
+    ./direnv.nix
+    ./nh.nix
+  ];
+
   nix.settings = {
     auto-optimise-store = true;
     keep-outputs = true;

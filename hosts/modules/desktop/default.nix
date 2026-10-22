@@ -6,6 +6,39 @@
 
   security.pam.services.hyprlock = { };
 
+  programs.dconf.enable = true;
+
+  hardware = {
+    bluetooth = {
+      enable = true;
+      powerOnBoot = true;
+    };
+    uinput.enable = true;
+  };
+
+  environment.gnome.excludePackages = with pkgs; [
+    baobab
+    cheese
+    epiphany
+    gedit
+    orca
+    simple-scan
+    yelp
+    file-roller
+    geary
+    seahorse
+    gnome-calculator
+    gnome-calendar
+    gnome-characters
+    gnome-clocks
+    gnome-contacts
+    gnome-font-viewer
+    gnome-logs
+    gnome-maps
+    gnome-music
+    gnome-weather
+  ];
+
   services = {
     blueman.enable = true;
 
