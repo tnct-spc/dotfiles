@@ -12,6 +12,7 @@
       "https://yadokani389.cachix.org"
       "https://oxalica.cachix.org"
       "https://cache.nixos-cuda.org"
+      "https://kanaemi.cachix.org"
     ];
     trusted-public-keys = [
       "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
@@ -19,6 +20,7 @@
       "yadokani389.cachix.org-1:xHw9jijQFNDKlNprHbQpXX6cVOUO4m/n2lBfx6Bq4jg="
       "oxalica.cachix.org-1:h0iRBw6tQD8+51ZvnNEBPbwLR58UD7klauDBWzBdugQ="
       "cache.nixos-cuda.org:74DUi4Ye579gUqzH4ziL9IyiJBlDpMRn9MBN8oNan9M="
+      "kanaemi.cachix.org-1:TIkDbHQ6HmPzHQBXdOVhLSTff2LiCWJOJhKdIUWC238="
     ];
   };
 }

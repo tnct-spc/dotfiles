@@ -7,6 +7,14 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    kanaemi = {
+      url = "github:kanaemi-app/kanaemi";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    kanaemi-dict = {
+      url = "github:kanaemi-app/kanaemi-dict";
+      flake = false;
+    };
     nvf = {
       url = "github:yadokani389/nvf-config";
       inputs = {
