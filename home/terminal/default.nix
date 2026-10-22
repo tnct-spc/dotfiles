@@ -20,6 +20,8 @@
     unzip
     wget
     zoxide
+    gws
+    google-cloud-sdk
     inputs.nvf.packages."${pkgs.stdenv.hostPlatform.system}".default
   ];
 }
